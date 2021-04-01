@@ -20,12 +20,14 @@ in.
 The `develop` branch is based off of `master` and is where a majority of feature
 branches will be branched from.
 
-Each ticket should have its branch.
+Each ticket should have its own branch.
 
-Most tickets should have their branch based on the `develop` branch.
+Feature branches should either be based off of `develop` or `master`.
+
+Most tickets should have their branch based off of the `develop` branch.
 
 Hotfixes that must be released immediately into production must have their
-branch based on `master`.
+branch based off of `master`.
 
 ## Contribution Guidelines
 
@@ -47,7 +49,8 @@ Before moving a ticket into review, first ensure:
 
 * All acceptance criteria have been met.
 * Relevant automated tests have been written.
-* You have performed manual testing to ensure the functionaly works as expected.
+* You have performed manual testing to ensure the functionality works as 
+expected.
 * All automated tests are passing.
 * The CI/CD pipeline passes for the PR raised.
 
