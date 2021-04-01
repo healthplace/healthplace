@@ -61,7 +61,7 @@ Releasing is managed entirely through version control and the CI/CD pipeline.
 Releases to the staging environment are triggered via new commits pushed to the
 `develop` branch, following a successful pipeline run.
 
-Releases to the RC environment are triggered via new commits pushed to tabyhe
+Releases to the RC environment are triggered via new commits pushed to a
 `release/*` branch, following a successful pipeline run.
 
 Releases to the production environment are triggered via new tags (following the
