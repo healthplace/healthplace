@@ -1,4 +1,4 @@
-# Connected Together
+# Health Place
 
 Lorem ipsum dolar sit amet.
 
