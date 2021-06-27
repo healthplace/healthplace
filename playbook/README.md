@@ -9,6 +9,32 @@ Below are some tenets to follow when working together:
 * If a ticket doesn't have everything you need to complete it, let it be known
 before work is started.
 
+## What is Work?
+
+"Work" consists of everything involved in delivering a feature/fix which includes but is not limited to, the following:
+
+* Planning
+* Development (includes coding, designing, writing, etc.)
+* Reviewing
+* Testing
+* Deploying
+
+Each stage is of equal importance and we must ensure that our standards are upheld during all of them.
+
+## Ticket Size and Story Points
+
+Tickets should all be broken down into releasable pieces of work that take no longer than a day to complete, but must be no longer than two days.
+
+We use the Fibonacci sequence for our story points, going up to a maximum of 8. The points loosely represent the total time taken to complete the ticket.
+
+Since our tickets must not take longer than two days, 8 points should resemble around two whole days worth of work. All other points below 8, should therefore be a rough proportion of this timescale.
+
+E.g. A ticket that will likely take a whole day to complete should be pointed at 5.
+
+We should be prudent in our estimations and point up if there's considerable uncertainty that it might take longer.
+
+The purpose of pointing is not to only understand what our capacity is but to also identify any potential issues with the ticket before it's started. An honest pointing is actively encouraged and respected.
+
 ## Branching Strategy
 
 We use [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
@@ -38,7 +64,7 @@ When work is completed on your branch, first make sure all automated tests are
 passing as well as manual tests; confirming the functionality in the
 corresponding ticket has been satisfied.
 
-Raise a PR back into the branch based off of (usually `develop`, but may be
+Raise a PR back into the branch based off of (usually `develop`, but maybe
 `master` for hotfixes).
 
 Update the corresponding ticket accordingly.
